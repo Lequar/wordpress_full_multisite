@@ -23,23 +23,23 @@ y encontraremos un SQL llamado "base_wordpress.sql", esta es nuestra base de dat
 - Entramos e importamos la base de datos. (Ya tenemos la BD para conectarlo con nuestro Wordpress).
 - Ahora configuramos el archivo "wp-config.php"
 ```shell
-// ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
-/** El nombre de tu base de datos de WordPress */
+/** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. **/
+/** El nombre de tu base de datos de WordPress **/
 define('DB_NAME', 'base_wordpress');
 
-/** Tu nombre de usuario de MySQL */
+/** Tu nombre de usuario de MySQL **/
 define('DB_USER', 'root');
 
-/** Tu contraseña de MySQL */
+/** Tu contraseña de MySQL **/
 define('DB_PASSWORD', '');
 
-/** Host de MySQL (es muy probable que no necesites cambiarlo) */
+/** Host de MySQL (es muy probable que no necesites cambiarlo) **/
 define('DB_HOST', 'localhost');
 
-/** Codificación de caracteres para la base de datos. */
+/** Codificación de caracteres para la base de datos. **/
 define('DB_CHARSET', 'utf8mb4');
 
-/** Cotejamiento de la base de datos. No lo modifiques si tienes dudas. */
+/** Cotejamiento de la base de datos. No lo modifiques si tienes dudas. **/
 define('DB_COLLATE', '');
 ```
 - Nuestro Wordpress esta listo para usar.
